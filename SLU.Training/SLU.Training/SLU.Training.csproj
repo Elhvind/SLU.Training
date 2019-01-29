@@ -264,8 +264,6 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\Bootstrap\4.2.1\bootstrap.bundle.js.map" />
     <Content Include="Scripts\Bootstrap\4.2.1\bootstrap.bundle.min.js.map" />
     <Content Include="Scripts\Bootstrap\4.2.1\bootstrap.js.map" />
@@ -322,6 +320,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_TopNavBar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
