@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLU.Training", "SLU.Trainin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLU.Common", "SLU.Common\SLU.Common.csproj", "{A43BD6EA-B7F6-42B9-BD1D-22CDD529A878}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLU.Training.Data", "SLU.Training.Data\SLU.Training.Data.csproj", "{ECECF066-3CD2-4D9F-86FA-E7E74BE0709C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLU.Training.DataAccess", "SLU.Training.DataAccess\SLU.Training.DataAccess.csproj", "{A8C89AEC-7AD0-4DE6-871F-40E26617DDE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A43BD6EA-B7F6-42B9-BD1D-22CDD529A878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A43BD6EA-B7F6-42B9-BD1D-22CDD529A878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A43BD6EA-B7F6-42B9-BD1D-22CDD529A878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECECF066-3CD2-4D9F-86FA-E7E74BE0709C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECECF066-3CD2-4D9F-86FA-E7E74BE0709C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECECF066-3CD2-4D9F-86FA-E7E74BE0709C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECECF066-3CD2-4D9F-86FA-E7E74BE0709C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C89AEC-7AD0-4DE6-871F-40E26617DDE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C89AEC-7AD0-4DE6-871F-40E26617DDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C89AEC-7AD0-4DE6-871F-40E26617DDE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C89AEC-7AD0-4DE6-871F-40E26617DDE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
