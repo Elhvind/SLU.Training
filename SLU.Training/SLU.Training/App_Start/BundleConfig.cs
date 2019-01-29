@@ -1,5 +1,4 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
 namespace SLU.Training
 {
@@ -20,11 +19,13 @@ namespace SLU.Training
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+                      "~/Scripts/Bootstrap/4.2.1/bootstrap.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/fontawesome").Include(
+                      "~/Scripts/Fontawesome/5.7.0/all.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/theme.css"));
         }
     }
 }
